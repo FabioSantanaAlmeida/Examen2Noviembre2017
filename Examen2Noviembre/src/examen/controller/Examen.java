@@ -13,12 +13,21 @@ import javax.servlet.http.HttpSession;
 import eshop.beans.CartItem;*/
 import examen.model.DataManager;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Hashtable;
 
 public class Examen extends javax.servlet.http.HttpServlet implements javax.servlet.Servlet {
 	private static final long serialVersionUID = 1L;
-
+	
+	public static void ListaEnlaces() {
+		ArrayList<String> ListasEnlaces = new ArrayList<String>();
+		ListasEnlaces.add("https://www.google.com");
+		ListasEnlaces.add("https://www.youtube.com");
+		ListasEnlaces.add("https://go.twitch.tv");
+	}
+	
+	
 	public Examen() {
 		super();
 	}

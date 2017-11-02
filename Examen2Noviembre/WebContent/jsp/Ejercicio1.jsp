@@ -1,8 +1,9 @@
+<%@page import="examen.controller.Examen"%>
 <%@page language="java" contentType="text/html"%>
 <jsp:useBean id="dataManager" scope="application"
-  class="examen.model.DataManager"/>
+  class="examen.controller.Examen"/>
 <%
- 
+	Examen.ListaEnlaces();
   %>
 <div>
   <div class="content">
