@@ -42,7 +42,7 @@ INSERT INTO `usuarios` (`id`, `usuario`, `clave`) VALUES
 (8, 'carmelo1', 'elrincon');
 
 --
--- √?ndices para tablas volcadas
+-- √çndices para tablas volcadas
 --
 
 --
