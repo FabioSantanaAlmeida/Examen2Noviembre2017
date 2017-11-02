@@ -4,10 +4,10 @@
   %>
 <div>
   <div class="content">
-    <a><p>Ejercicio 2</p></a>
+    <p>Ejercicio 2</p>
+    <a href="index.jsp">Volver</a>
     </div>
-  <div>
-    
-      
+  	<div>
+    	  
     </div>
   </div>
